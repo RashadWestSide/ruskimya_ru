@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100;0,200;0,400;1,500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Chivo Mono', monospace;
+    transition: .3s ease;
+}
+
+:root{
+    --PrimaryColor: hsl(26, 93%, 50%);
+    --whiteColor: hsl(0, 0%, 100%);
+    --blueBg: hsl(170, 100%, 88%);
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.section{
+    padding: 4rem 0 2rem;
+}
+
+.cantainer{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.icon{
+    cursor: pointer;
+}
+
+
+.logoImg{
+    width: 90px;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+}
+
+.btn{
+    padding: .4rem 1.5rem;
+    background-color: var(--PrimaryColor);
+    border: none;
+    outline: none;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+.btn a{
+    color: var(--whiteColor);
+    font-weight: 500%;
+}
+
+.btn:hover a{
+    color: var(--whiteColor);
+}
+
+.secIntro{
+    max-width: 70%;
+    text-align: center;
+    margin: 0 auto 2rem;
+}
+
+.secIntro .secTitle{
+    color: var(--blackColor);
+    line-height: 1.5rem;
+    padding-bottom: .5rem;
+}
+
+.secIntro p{
+    font-size: 13px;
+    color: var(--textColor);
+    font-weight: 500;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+input{
+    font-size: 100%;
+}
+
+@media screen and (min-width: 550px){
+    .mainContainer{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .mainContainer, .singleContainer, .imgDiv, .overlayInfo, p{
+        color: var(--whiteColor);
+        opacity: 1 !important;
+        font-size: 24px !important;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .mainContainer {
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .mainContainer, .singleContainer, .imgDiv, .overlayInfo, p{
+        color: var(--whiteColor);
+        opacity: 1 !important;
+        font-size: 18px !important;
+    }
+
+    .products{
+        height: 100vh !important;
+    }
+}
