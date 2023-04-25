@@ -1,0 +1,67 @@
+:root{
+    --PrimaryColor: hsl(26, 93%, 50%);
+    --whiteColor: hsl(0, 0%, 100%);
+    --greyBg: hsl(218, 10%, 90%);
+    --textColor: hsl(0, 100%, 2%);
+    --HoverColor: hsl(218, 100%, 58%)
+}
+
+.home{
+    height: 100vh;
+    background: url('../../Assets/mainbackground.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+}
+
+.secContainer{
+    .homeText{
+        text-align: center;
+
+        .title{
+            font-size: 3rem;
+            font-weight: 600;
+            line-height: 2.5rem;
+        }
+
+        .subTitle{
+            opacity: .7;
+            font-size: 24px;
+            font-weight: 300;
+            padding: 1rem 0;
+            max-width: 100%;
+            text-align: center;
+            margin: auto;
+            font-weight: bold;
+        }
+
+        .btn{
+            padding: .6rem .8rem;
+            font-size: 18px;
+        }
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .secContainer{
+        .homeText{
+            .title{
+                font-size: 2.5rem;
+                margin: auto;
+            }
+    
+            .subTitle{
+                font-size: 18px;
+            }
+    
+            .btn{
+                font-size: 13px;
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+:root {
+  --PrimaryColor: hsl(26, 93%, 50%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --greyBg: hsl(218, 10%, 90%);
+  --textColor: hsl(0, 100%, 2%);
+  --HoverColor: hsl(218, 100%, 58%);
+  --blueBg: hsl(187, 73%, 90%);
+}
+
+.footer {
+  background: var(--blueBg);
+  padding: 2rem 0;
+}
+.footer .secContainer {
+  gap: 1.5rem;
+  text-align: center;
+}
+.footer .secContainer .footerLogo {
+  padding-bottom: 0.5rem;
+}
+.footer .secContainer .footerLogo .logo {
+  color: black;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+}
+.footer .secContainer .footerLogo .logo .icon {
+  color: var(--PrimaryColor);
+  margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 769px) {
+  .footer {
+    padding: 1rem 0;
+  }
+  .footer .footerLogo .logo {
+    font-size: 8px !important;
+  }
+}/*# sourceMappingURL=footer.css.map */

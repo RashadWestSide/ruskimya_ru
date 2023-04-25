@@ -1,0 +1,122 @@
+:root{
+    --PrimaryColor: hsl(26, 93%, 50%);
+    --whiteColor: hsl(0, 0%, 100%);
+    --greyBg: hsl(218, 10%, 90%);
+    --textColor: hsl(0, 100%, 2%);
+    --HoverColor: hsl(218, 100%, 58%)
+}
+
+.products{
+    padding-top: 8rem;
+    background: #f0f8ff;
+
+    .secContainer{
+        
+        .secHeader{
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1rem;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            
+            .textDiv{
+                
+                .secTitle{
+                    color: black;
+                    font-size: 2.5rem;
+                    font-weight: 600;
+                    line-height: 1.5rem;
+                    padding-bottom: 1.5rem;
+                }
+                .secHelp{
+
+                    background: rgb(238,174,202);
+                    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+                    border-radius: .8rem;
+                    box-shadow: 0 2px 8px 2px black;
+                    p{
+                        font-size: 15px;
+                        color: var(--textColor);
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+
+        .mainContainer{
+            padding: 3rem 2rem;
+            gap: 3rem;
+
+            .singleContainer{
+                overflow: hidden;
+                border-radius: .8rem;
+                box-shadow: 0 2px 8px 2px black;
+
+                .imgDiv{
+                    height: 50vh;
+                    width: 100%;
+                    position: relative;
+                    overflow: hidden;
+
+                    img{
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+
+                    .overlayInfo{
+                        position: absolute;
+                        display: flex;
+                        align-items: flex-start;
+                        padding: 0;
+                        justify-content: center;
+                        flex-direction: column;
+                        background: linear-gradient(rgba(0, 0, 0, 0.846), rgba(0, 0, 0, 0.759));
+                        bottom: 0;
+                        width: 100%;
+                        height: 0;
+                        overflow: hidden;
+
+                        p{
+                            color: var(--whiteColor);
+                            opacity: .7;
+                            font-size: 13px;
+                        }
+                    }
+                }
+
+                .containerFooter{
+                    padding: .8rem;
+                    background-color: whitesmoke;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .containerText{
+                        h3{
+                            color: var(--textColor);
+                            font-size: 24px !important;
+                        }
+                        p{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-size: 18px !important;
+                            color: rgb(96, 159, 96);
+                            font-family: 'Poppins', sans-serif !important;
+                        }
+                    }
+                }
+
+                &:hover{
+                    .overlayInfo{
+                        overflow: visible;
+                        padding: 1rem 1.5rem;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
