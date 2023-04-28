@@ -11,7 +11,7 @@ const Contacts = () => {
 
       <div className="leftSide" style={{backgroundImage: `url(${ContactImage})`}}>
         <div className='contactInfoItem'>
-          <p><MdPhone/>+71234567891</p>
+          <p><MdPhone/>+71234567890</p>
           <p><MdEmail/>ruskimya@gmail.com</p>
           <p><MdLocationOn/>Россия, г. Нижний Новгород</p>
         </div>
