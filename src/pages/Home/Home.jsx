@@ -20,7 +20,7 @@ const Home = () => {
           </h1>
 
           <p data-aos='fade-up' data-aos-duration='2000' className='subTitle'>
-            Магазин промышленной химии
+            Склад промышленной химии
           </p>
 
           <button data-aos='fade-up' data-aos-duration='2000' className='btn'>
