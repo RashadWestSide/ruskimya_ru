@@ -2,7 +2,8 @@ import './contacts.css'
 import React from 'react'
 import ContactForm from '../../Components/ContactForm/ContactForm'
 import ContactImage from '../../Assets/contact1.jpeg'
-import { MdPhone, MdEmail, MdLocationOn } from 'react-icons/md'
+import { MdPhone, MdEmail, MdLocationOn} from 'react-icons/md'
+import { FaWhatsappSquare } from 'react-icons/fa'
 
 const Contacts = () => {
 
@@ -11,9 +12,11 @@ const Contacts = () => {
 
       <div className="leftSide" style={{backgroundImage: `url(${ContactImage})`}}>
         <div className='contactInfoItem'>
-          <p><MdPhone/>+79307001117</p>
+          <h2><MdLocationOn/>Россия, г. Нижний Новгород, Восточный проезд, 11 лит Ч</h2>
+          <p><MdPhone/>+79307001144</p>
+          <p><FaWhatsappSquare/>+79202526434</p>
           <p><MdEmail/>ruskimya@gmail.com</p>
-          <h3><MdLocationOn/>Россия, г. Нижний Новгород, Восточный проезд, 11 лит Ч</h3>
+          <p><MdEmail/>ruskimya@inbox.ru</p>
         </div>
       </div>
 
