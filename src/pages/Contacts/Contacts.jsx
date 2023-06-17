@@ -4,6 +4,7 @@ import ContactForm from '../../Components/ContactForm/ContactForm'
 import ContactImage from '../../Assets/contact1.jpeg'
 import { MdPhone, MdEmail, MdLocationOn} from 'react-icons/md'
 import { FaWhatsappSquare } from 'react-icons/fa'
+import { GiRotaryPhone } from 'react-icons/gi'
 
 const Contacts = () => {
 
@@ -15,6 +16,7 @@ const Contacts = () => {
           <h2><MdLocationOn/>Россия, г. Нижний Новгород, Восточный проезд, 11 лит Ч</h2>
           <p><MdPhone/>+79307001144</p>
           <p><FaWhatsappSquare/>+79202526434</p>
+          <p><GiRotaryPhone/>+7(831)281-19-65</p>
           <p><MdEmail/>ruskimya@gmail.com</p>
           <p><MdEmail/>ruskimya@inbox.ru</p>
         </div>
