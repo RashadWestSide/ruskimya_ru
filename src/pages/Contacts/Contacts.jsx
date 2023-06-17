@@ -15,7 +15,6 @@ const Contacts = () => {
         <div className='contactInfoItem'>
           <h2><MdLocationOn/>Россия, г. Нижний Новгород, Восточный проезд, 11 лит Ч</h2>
           <p><MdPhone/>+79307001144</p>
-          <p><FaWhatsappSquare/>+79202526434</p>
           <p><GiRotaryPhone/>+7(831)281-19-65</p>
           <p><MdEmail/>ruskimya@gmail.com</p>
           <p><MdEmail/>ruskimya@inbox.ru</p>
