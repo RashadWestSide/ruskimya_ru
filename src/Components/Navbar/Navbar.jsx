@@ -8,6 +8,7 @@ import { MdMenuBook } from 'react-icons/md'
 import { AiTwotoneHome } from 'react-icons/ai'
 import { GiBarrelLeak } from 'react-icons/gi'
 import { TbGridDots } from 'react-icons/tb'
+import { RiTeamFill } from 'react-icons/ri'
 
 const Navbar = () => {
 
@@ -42,6 +43,10 @@ const Navbar = () => {
 
             <li className='navItem'><MdMenuBook className='iconNav'/>
               <Link to="/products" className='navLink'>Ассортимент</Link>
+            </li>
+
+            <li className='navItem'><RiTeamFill className='iconNav'/>
+              <Link to="/about" className='navLink'>О нас</Link>
             </li>
 
             <li className='navItem'><RiContactsBook2Fill className='iconNav'/>

@@ -3,7 +3,6 @@ import React from 'react'
 import ContactForm from '../../Components/ContactForm/ContactForm'
 import ContactImage from '../../Assets/contact1.jpeg'
 import { MdPhone, MdEmail, MdLocationOn} from 'react-icons/md'
-import { FaWhatsappSquare } from 'react-icons/fa'
 import { GiRotaryPhone } from 'react-icons/gi'
 
 const Contacts = () => {

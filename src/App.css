@@ -14,6 +14,10 @@
     --blueBg: hsl(170, 100%, 88%);
 }
 
+.grid{
+    align-items: start !important;
+}
+
 a{
     text-decoration: none;
 }

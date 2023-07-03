@@ -1,9 +1,9 @@
 import React from 'react'
-import './app.css'
+import './App.css'
 import Navbar from './Components/Navbar/Navbar'
 import Home from './pages/Home/Home.jsx'
 // import Footer from './Components/Footer/Footer'
-// import About from './pages/About/About'
+import About from './pages/About/About'
 import Products from './pages/Products/Products'
 import Contacts from './pages/Contacts/Contacts'
 
@@ -17,6 +17,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/products" element={<Products/>} />
+          <Route path="/about" element={<About/>} />
           <Route path="/contacts" element={<Contacts/>} />
         </Routes>
         {/* <Footer /> */}
