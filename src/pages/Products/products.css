@@ -84,9 +84,9 @@
   color: var(--textColor);
   font-size: 22px !important;
 }
-.products .secContainer .mainContainer .singleContainer .containerFooter .containerText p {
+.products .secContainer .mainContainer .singleContainer .containerFooter .containerText b {
   font-size: 18px !important;
-  color: #6495ED;
+  color: #5fa36a;
   font-family: "Poppins", sans-serif !important;
 }
 .products .secContainer .mainContainer .singleContainer:hover .overlayInfo {
