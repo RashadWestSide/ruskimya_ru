@@ -28,9 +28,9 @@ const Navbar = () => {
         <div className='logoDiv'>
           <Link to="/" className='logo'>
           {/* <img className='logoImg' src={Logo} alt='logo'/> */}
-          <h1 className='flex'><GiBarrelLeak className='icon' />
+          <h4 className='flex'><GiBarrelLeak className='icon' />
             RUS`KIMYA
-            </h1>
+            </h4>
           </Link>
         </div>
 
